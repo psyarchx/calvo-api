@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calvo.API", "Calvo.API\Calvo.API.csproj", "{8A33A6D3-BD10-40EC-9B9D-7CDB591D809D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calvo.Domain", "Calvo.Domain\Calvo.Domain.csproj", "{F11D1EAF-D6E2-4EFF-9E56-2E8D0F4C19B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calvo.Infrastructure", "Calvo.Infrastructure\Calvo.Infrastructure.csproj", "{B4E32772-BF14-453B-BD7C-0CAC573ACD42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calvo.Application", "Calvo.Application\Calvo.Application.csproj", "{9CAF79A3-FBDA-4DFE-B00E-5DB4429279DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D417075A-B74B-4F1F-8764-620C803C9771} = {D417075A-B74B-4F1F-8764-620C803C9771}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calvo.CrossCutting", "Calvo.CrossCutting\Calvo.CrossCutting.csproj", "{D417075A-B74B-4F1F-8764-620C803C9771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C966A39D-8550-4A5C-993F-0A13E69AF011}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A33A6D3-BD10-40EC-9B9D-7CDB591D809D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A33A6D3-BD10-40EC-9B9D-7CDB591D809D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A33A6D3-BD10-40EC-9B9D-7CDB591D809D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A33A6D3-BD10-40EC-9B9D-7CDB591D809D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11D1EAF-D6E2-4EFF-9E56-2E8D0F4C19B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11D1EAF-D6E2-4EFF-9E56-2E8D0F4C19B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11D1EAF-D6E2-4EFF-9E56-2E8D0F4C19B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11D1EAF-D6E2-4EFF-9E56-2E8D0F4C19B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E32772-BF14-453B-BD7C-0CAC573ACD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E32772-BF14-453B-BD7C-0CAC573ACD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E32772-BF14-453B-BD7C-0CAC573ACD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E32772-BF14-453B-BD7C-0CAC573ACD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CAF79A3-FBDA-4DFE-B00E-5DB4429279DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CAF79A3-FBDA-4DFE-B00E-5DB4429279DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CAF79A3-FBDA-4DFE-B00E-5DB4429279DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CAF79A3-FBDA-4DFE-B00E-5DB4429279DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D417075A-B74B-4F1F-8764-620C803C9771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D417075A-B74B-4F1F-8764-620C803C9771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D417075A-B74B-4F1F-8764-620C803C9771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D417075A-B74B-4F1F-8764-620C803C9771}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1CE8801-129C-4754-956D-A2570ED81AF2}
+	EndGlobalSection
+EndGlobal
